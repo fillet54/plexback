@@ -1,4 +1,4 @@
-define ['jQuery', 'Underscore', 'Backbone', 'router' ],
-   ($, _, Backbone, Router) ->
+define ['router'],
+   (Router) ->
       initialize = -> Router.initialize()
       initialize: initialize
